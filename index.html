@@ -6,13 +6,12 @@
   <link rel="icon" href="images/favicon.png" sizes="32x32">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,100,700,100italic,300italic,400italic">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
   <title>META's Todo list</title>
 </head>
 
 <body>
   <div id="app">
-    <!--<h1>Daily To-Do list manager</h1>-->
+    <h1>To-Do list manager</h1>
     <section class="todo-wrapper">
       <h2 class="todo-title">{{ today.date }} {{ today.day }}</h2>
       <form @keydown.enter.prevent="">
@@ -56,5 +55,7 @@
   <footer>
     This app is buiding by jong-keun.
   </footer>
+  <script src="js/vue.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+</html>
